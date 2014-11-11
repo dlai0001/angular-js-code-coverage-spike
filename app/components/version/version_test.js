@@ -9,7 +9,5 @@ describe('myApp.version module', function() {
     }));
   });
 
-  it('should fail', function() {
-	expect(false).toBe(true);
-  });
+  
 });
