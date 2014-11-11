@@ -7,6 +7,11 @@ angular.module('myApp.view2', ['ngRoute'])
     templateUrl: 'view2/view2.html',
     controller: 'View2Ctrl'
   });
+
+  if(window.blahthis) {
+  	var v = 1 + window.blahthis;
+  	console.log(v);
+  }
 }])
 
 .controller('View2Ctrl', [function() {

@@ -39,10 +39,11 @@ module.exports = function(config){
 
     coverageReporter: {
       type: 'html',
-      dir: 'coverage/',
+      // dir: 'coverage/',
       reporters: [
         { type: 'teamcity', subdir: '.', file: 'teamcity.txt' },
-        { type: 'html', subdir: 'report-html' }
+        { type: 'html', subdir: 'report-html' },
+        { type: 'lcov', subdir: 'report-lcov' }
       ]
 
     }
